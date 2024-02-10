@@ -1,2 +1,14 @@
-# doom-tower
-a btd6-tower/mod
+<a href="https://github.com/doombubbles/template-mod/releases/latest/download/doom.dll">
+    <img align="left" alt="Icon" height="90" src="Icon.png">
+    <img align="right" alt="Download" height="75" src="https://raw.githubusercontent.com/gurrenm3/BTD-Mod-Helper/master/BloonsTD6%20Mod%20Helper/Resources/DownloadBtn.png">
+</a>
+
+<h1 align="center">doom</h1>
+
+a monkey of doom
+dsicord: benjiarml or ttvbenjiarml
+its bad i know its the first time
+
+
+
+[![Requires BTD6 Mod Helper](https://raw.githubusercontent.com/gurrenm3/BTD-Mod-Helper/master/banner.png)](https://github.com/gurrenm3/BTD-Mod-Helper#readme)
