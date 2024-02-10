@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>Doom</RootNamespace>
+        <Configurations>Debug;Release</Configurations>
+        <Nullable>enable</Nullable>
+        <AssemblyName>Doom</AssemblyName>
+        <LangVersion>latest</LangVersion>
+        <Optimize>False</Optimize>
+        <DebugType>embedded</DebugType>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+      <FileAlignment>8192</FileAlignment>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+      <FileAlignment>8192</FileAlignment>
+    </PropertyGroup>
+    <ItemGroup>
+      <None Remove="Projectiles\DoomDisplay.png" />
+      <None Remove="upgrades\GodKingOfBombs.png" />
+      <None Remove="upgrades\GodKingOfSpades-Portrait.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include=".github\workflows\build.yml" />
+    </ItemGroup>
+    <ItemGroup>
+      <Reference Include="BloonsTD6 Mod Helper">
+        <HintPath>D:\SteamLibrary\steamapps\common\BloonsTD6\Mods\Btd6ModHelper.dll</HintPath>
+      </Reference>
+      <Reference Include="MelonLoader">
+        <HintPath>D:\SteamLibrary\steamapps\common\BloonsTD6\MelonLoader\net35\MelonLoader.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+	  <Exec Command="copy &quot;$(TargetDir)$(TargetFileName)&quot; &quot;D:\SteamLibrary\steamapps\common\BloonsTD6\Mods&quot; /y" />
+	</Target>
+	<Import Project="..\btd6.targets" />
+	<ItemGroup>
+	  <EmbeddedResource Update="DoomMonkeyParagonDisplay.png">
+	    <CopyToOutputDirectory></CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="upgrades\GodKingOfBombs.png">
+	    <CopyToOutputDirectory></CopyToOutputDirectory>
+	  </EmbeddedResource>
+	</ItemGroup>
+</Project>

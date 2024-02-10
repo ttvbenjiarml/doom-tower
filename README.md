@@ -6,7 +6,7 @@
 <h1 align="center">doom</h1>
 
 a monkey of doom
-discord: benjiarml or ttvbenjiarml
+dsicord: benjiarml or ttvbenjiarml
 its bad i know its the first time
 
 
