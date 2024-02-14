@@ -10,8 +10,8 @@ dsicord: benjiarml or ttvbenjiarml
 a doom tower, a tower of doom. also likes damage
 
 update 1.0.1
-pierce
-displays
+pierce,
+displays,
 upgrade
 
 
