@@ -6,8 +6,13 @@
 <h1 align="center">doom</h1>
 
 a monkey of doom
-discord: benjiarml or ttvbenjiarml
-its bad i know its the first time
+dsicord: benjiarml or ttvbenjiarml
+a doom tower, a tower of doom. also likes damage
+
+update 1.0.1
+pierce
+displays
+upgrade
 
 
 
