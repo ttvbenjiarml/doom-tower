@@ -14,7 +14,7 @@ pierce,
 displays,
 upgrade
 
-<h1 aling="left"><img alt="GitHub all releases" height="25" src="https://img.shields.io/github/downloads/OrionLima/Monkey-Ace-But-Better/total?label=Total%20Dowloads"></h1>
+<h1 aling="left"><img alt="GitHub all releases" height="25" src="https://img.shields.io/github/downloads/OrionLima/doom-tower/total?label=Total%20Dowloads"></h1>
 
 
 
